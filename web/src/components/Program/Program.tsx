@@ -1,12 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { useEffect } from 'react'
 import { Schedule } from 'src/data/Schedule'
 
 const Program = () => {
+  useEffect(() => {
+    setTimeout(() => {
+      // smooth scroll to the day by hash in URL (if any)
+      const day = window.location.hash
+      document
+        .getElementById(day?.substring(1))
+        ?.scrollIntoView({ behavior: 'smooth' })
+    }, 500)
+  })
+
   return (
     <div>
       <div className="w-12 h-12"></div>
       {Schedule.map((day) => (
-        <Day key={day.ordinal} day={day} events={day.events} />
+        <section key={day.ordinal} id={`day${day.ordinal}`}>
+          <Day day={day} events={day.events} />
+        </section>
       ))}
     </div>
   )
@@ -15,11 +28,9 @@ const Program = () => {
 const Day = ({ day, events }) => (
   <div className="mb-12">
     <div className="pb-0 pt-4 border-t-8 border-gray-200 w-24 h-2">&nbsp;</div>
-    <a id={`day-${day.ordinal}`}>
-      <h2 className="font-bold text-2xl text-gray-200">
-        {toLocalDate(day.date)}
-      </h2>
-    </a>
+    <h2 className="font-bold text-2xl text-gray-200">
+      {toLocalDate(day.date)}
+    </h2>
     {day.description && (
       <div className="text-gray-200 mt-4">{day.description}</div>
     )}
