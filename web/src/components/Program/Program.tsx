@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Schedule } from 'src/data/Schedule'
 
 const Program = () => {
@@ -14,9 +15,11 @@ const Program = () => {
 const Day = ({ day, events }) => (
   <div className="mb-12">
     <div className="pb-0 pt-4 border-t-8 border-gray-200 w-24 h-2">&nbsp;</div>
-    <h2 className="font-bold text-2xl text-gray-200">
-      {toLocalDate(day.date)}
-    </h2>
+    <a id={`day-${day.ordinal}`}>
+      <h2 className="font-bold text-2xl text-gray-200">
+        {toLocalDate(day.date)}
+      </h2>
+    </a>
     {day.description && (
       <div className="text-gray-200 mt-4">{day.description}</div>
     )}
