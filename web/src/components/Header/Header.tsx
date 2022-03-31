@@ -7,7 +7,7 @@ const Header = () => {
           <h1 className="text-5xl md:text-6xl font-bold">
             RedwoodJS
             <br />
-            <span className="text-9xl font-bold">1.0</span>
+            <span className="text-9xl font-bold shimmer">1.0</span>
             <br />
             Launch Week
           </h1>
