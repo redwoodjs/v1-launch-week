@@ -18943,6 +18943,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-confetti@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "react-confetti@npm:6.0.1"
+  dependencies:
+    tween-functions: ^1.2.0
+  peerDependencies:
+    react: ^16.3.0 || ^17.0.1
+  checksum: a5669f8ddb49408d869639afc35a5fac1fa33efa529ce255b6bf5e613bb4cfa43d821bfe40fdc2cf36ee6460e38cbaad36d3ba3899cfef84ea6f39dafa7776fa
+  languageName: node
+  linkType: hard
+
 "react-docgen-typescript@npm:^2.0.0":
   version: 2.2.2
   resolution: "react-docgen-typescript@npm:2.2.2"
@@ -21933,6 +21944,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tween-functions@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "tween-functions@npm:1.2.0"
+  checksum: 7e59295b8b0ee4132ed2fe335f56a9db5c87056dad6b6fd3011be72239fd20398003ddb4403bc98ad9f5c94468890830f64016edbbde35581faf95b32cda8305
+  languageName: node
+  linkType: hard
+
 "tweetnacl@npm:^0.14.3":
   version: 0.14.5
   resolution: "tweetnacl@npm:0.14.5"
@@ -22802,6 +22820,7 @@ __metadata:
     postcss-loader: ^6.2.1
     prop-types: 15.8.1
     react: 17.0.2
+    react-confetti: ^6.0.1
     react-dom: 17.0.2
     tailwindcss: ^3.0.23
   languageName: unknown
