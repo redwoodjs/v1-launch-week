@@ -21,8 +21,7 @@ const Header = () => {
           <h1 className="text-5xl font-bold md:text-6xl">
             RedwoodJS
             <br />
-            <span className="text-8xl line-through text-slate-400">1.0 </span>
-            <span className="text-itallic font-bold text-9xl">v11</span>
+            <span className="font-bold text-9xl shimmer">1.0</span>
             <br />
             Launch Week
           </h1>

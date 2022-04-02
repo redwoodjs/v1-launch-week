@@ -7,8 +7,8 @@ const IndexPage = () => {
   return (
     <>
       <MetaTags
-        title="RedwoodJS v11 Launch"
-        description="RedwoodJS v11 launch week is here!"
+        title="RedwoodJS v1.0 Launch"
+        description="RedwoodJS v1.0 launch week is here!"
       />
       <Header />
       <div className="p-12 max-w-3xl m-auto">
@@ -26,8 +26,8 @@ const IndexPage = () => {
 const Overview = () => (
   <div>
     <div className="text-center mb-6">
-      <h2 className="font-bold text-3xl mb-4">
-        RedwoodJS <span className='italic underline text-yellow-400'><a href='https://twitter.com/redwoodjs/status/1509898766874206208?s=20&t=BKY-K8nWu0a4wQACqpLzAQ' target='_blank'>turns it up to v11</a></span> on April 4!
+      <h2 className="font-bold text-4xl mb-4">
+        RedwoodJS goes 1.0 on April 4!
       </h2>
     </div>
 
