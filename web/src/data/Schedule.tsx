@@ -82,14 +82,9 @@ export const Schedule: Day[] = [
         <p className="mb-4">
           Redwood has over 25 partner integrations covering deployment,
           authentication, databases, and more. During these two Office Hour
-          sessions, we’ll sit down with representatives from many partner
+          sessions, we&#39;ll sit down with representatives from many partner
           companies. The format will be casual and intended for Q&amp;A and open
           discussion.
-        </p>
-        <p>
-          Attending partners include Netlify, Prisma, Storybook, Render, Stripe,
-          Supabase, Auth0, Gitpod, and Planetscale
-          <span className="text-gray-500"> (subject to change)</span>.
         </p>
       </>
     ),
@@ -98,7 +93,99 @@ export const Schedule: Day[] = [
         time: new Date(Date.UTC(2022, 3, 4, 15, 0)),
         endTime: new Date(Date.UTC(2022, 3, 4, 16, 30)),
         title: 'Partner Office Hours - Block 1',
-        description: 'Schedule will be posted soon.',
+        description: (
+          <>
+            <p className="mb-2">
+              <a
+                href="https://stripe.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Stripe
+              </a>
+              : Paul Asjes
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://supabase.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Supabase
+              </a>
+              : Paul Copplestone
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://serverless.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Serverless.com
+              </a>
+              : Matthieu Napoli
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://chakra-ui.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Chakra-UI
+              </a>
+              : Segun (Sage) Adebayo and Lazar Nikolov
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://fly.io"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Fly.io
+              </a>
+              : Joshua Sierles
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://clerk.dev"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Clerk
+              </a>
+              : Colin
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://prisma.io"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Prisma
+              </a>
+              : Nikolas Burk
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.the-guild.dev"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                The Guild
+              </a>
+              : Uri Goldshtein, Dotan Simha, Arda Tanrikulu, Charly Poly, Jamie
+              Barton, and Laurin Quast
+            </p>
+          </>
+        ),
         action: {
           label: 'RSVP',
           url: 'https://lu.ma/2gxawl5t',
@@ -108,7 +195,87 @@ export const Schedule: Day[] = [
         time: new Date(Date.UTC(2022, 3, 4, 20, 0)),
         endTime: new Date(Date.UTC(2022, 3, 4, 21, 30)),
         title: 'Partner Office Hours - Block 2',
-        description: 'Schedule will be posted soon.',
+        description: (
+          <>
+            <p className="mb-2">
+              <a
+                href="https://storybook.js.org"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Storybook
+              </a>
+              : Michael Chan
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://planetscale.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Planetscale
+              </a>
+              : James Quick
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://render.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Render
+              </a>
+              : Anurag Goel
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://vercel.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Vercel
+              </a>
+              : Lee Robinson
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://gitpod.io"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Gitpod
+              </a>
+              : Mike Nikles
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://layer0.co"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Layer0
+              </a>
+              : Ishan Anand and Tristan Lee
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://netlify.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Netlify
+              </a>
+              : Matt Biilmann
+            </p>
+          </>
+        ),
         action: {
           label: 'RSVP',
           url: 'https://lu.ma/dz7zj5ca',
