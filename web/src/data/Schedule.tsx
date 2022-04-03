@@ -60,11 +60,164 @@ export const Schedule: Day[] = [
         description: (
           <>
             <p className="mb-4">
-              Startups built with Redwood have raised over $18M in the past six
-              months. 🤯 Come watch both funded startups and indie devs share
-              their experience with Redwood and the community.
+              Startups built with Redwood have raised over $19.5M in the past
+              six months. 🤯 Come watch both funded startups and indie devs
+              share their experience with Redwood and the community.
             </p>
-            <p>This event will include live demos and panel discussions.</p>
+            <p className="mb-8">
+              This event will include live demos and panel discussions.
+            </p>
+            <p className="mb-2">
+              <span className="font-bold">Investors Panel</span>:<br />
+              Helping startups achieve early-stage success
+            </p>
+            <p className="mb-2">
+              <span className="font-bold">Founders Panel</span>:<br />
+              How to start your startup
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://tape.sh"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Tape.sh
+              </a>
+              : Danny Choudhury
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.snaplet.dev"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Snaplet.com
+              </a>
+              : Peter Pistorius
+            </p>
+            <p className="mb-2">
+              <a
+                href="http://marlamap.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Marla
+              </a>
+              : Tilmann Böhme
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.ski-family.fr/en/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                SportOffice
+              </a>
+              : Florent Palach and Thomas Seillan
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://everfund.co.uk"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Everfund
+              </a>
+              : Christopher Burns and Will De Ath
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://teamstream.gg"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                TeamStream
+              </a>
+              : Kris Coulson
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://app.algostake.org"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Algostake
+              </a>
+              : Rob Cameron
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://niftychess.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Treasure Chess
+              </a>
+              : Patrick Gallagher and Joseph Schiarizzi
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://cadhub.xyz"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                CadHub
+              </a>
+              : Kurt Hutten
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://pullflow.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Pullflow
+              </a>
+              : Zak Mandhro
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.uservitalshq.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                UserVitals
+              </a>
+              : Tharshan
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://courselift.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Courselift
+              </a>
+              : Ryan Chenkie
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.buildpass.com.au"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Buildpass
+              </a>
+              : Matt Perrott
+            </p>
           </>
         ),
         action: {
