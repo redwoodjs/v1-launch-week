@@ -217,7 +217,7 @@ export const Schedule: Day[] = [
               >
                 Planetscale
               </a>
-              : James Quick
+              : James Q Quick
             </p>
             <p className="mb-2">
               <a
