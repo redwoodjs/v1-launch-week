@@ -335,7 +335,7 @@ export const Schedule: Day[] = [
               >
                 Clerk
               </a>
-              : Colin
+              : Colin Sidoti
             </p>
           </>
         ),
