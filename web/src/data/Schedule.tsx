@@ -97,6 +97,17 @@ export const Schedule: Day[] = [
           <>
             <p className="mb-2">
               <a
+                href="https://supabase.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Supabase
+              </a>
+              : Paul Copplestone
+            </p>
+            <p className="mb-2">
+              <a
                 href="https://stripe.com"
                 target="_blank"
                 rel="noreferrer"
@@ -108,14 +119,26 @@ export const Schedule: Day[] = [
             </p>
             <p className="mb-2">
               <a
-                href="https://supabase.com"
+                href="https://prisma.io"
                 target="_blank"
                 rel="noreferrer"
                 className="underline text-blue-400 hover:text-blue-500"
               >
-                Supabase
+                Prisma
               </a>
-              : Paul Copplestone
+              : Nikolas Burk
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.the-guild.dev"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                The Guild
+              </a>
+              : Uri Goldshtein, Dotan Simha, Arda Tanrikulu, Charly Poly, Jamie
+              Barton, and Laurin Quast
             </p>
             <p className="mb-2">
               <a
@@ -161,29 +184,6 @@ export const Schedule: Day[] = [
               </a>
               : Colin
             </p>
-            <p className="mb-2">
-              <a
-                href="https://prisma.io"
-                target="_blank"
-                rel="noreferrer"
-                className="underline text-blue-400 hover:text-blue-500"
-              >
-                Prisma
-              </a>
-              : Nikolas Burk
-            </p>
-            <p className="mb-2">
-              <a
-                href="https://www.the-guild.dev"
-                target="_blank"
-                rel="noreferrer"
-                className="underline text-blue-400 hover:text-blue-500"
-              >
-                The Guild
-              </a>
-              : Uri Goldshtein, Dotan Simha, Arda Tanrikulu, Charly Poly, Jamie
-              Barton, and Laurin Quast
-            </p>
           </>
         ),
         action: {
@@ -197,6 +197,28 @@ export const Schedule: Day[] = [
         title: 'Partner Office Hours - Block 2',
         description: (
           <>
+            <p className="mb-2">
+              <a
+                href="https://netlify.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Netlify
+              </a>
+              : Matt Biilmann
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://vercel.com"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Vercel
+              </a>
+              : Lee Robinson
+            </p>
             <p className="mb-2">
               <a
                 href="https://storybook.js.org"
@@ -232,17 +254,6 @@ export const Schedule: Day[] = [
             </p>
             <p className="mb-2">
               <a
-                href="https://vercel.com"
-                target="_blank"
-                rel="noreferrer"
-                className="underline text-blue-400 hover:text-blue-500"
-              >
-                Vercel
-              </a>
-              : Lee Robinson
-            </p>
-            <p className="mb-2">
-              <a
                 href="https://gitpod.io"
                 target="_blank"
                 rel="noreferrer"
@@ -262,17 +273,6 @@ export const Schedule: Day[] = [
                 Layer0
               </a>
               : Ishan Anand and Tristan Lee
-            </p>
-            <p className="mb-2">
-              <a
-                href="https://netlify.com"
-                target="_blank"
-                rel="noreferrer"
-                className="underline text-blue-400 hover:text-blue-500"
-              >
-                Netlify
-              </a>
-              : Matt Biilmann
             </p>
           </>
         ),
