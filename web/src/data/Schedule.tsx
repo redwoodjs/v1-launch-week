@@ -70,7 +70,8 @@ export const Schedule: Day[] = [
             <p className="mb-2">
               <span className="font-bold">Investors Panel</span>:<br />
               Helping startups achieve early-stage success
-              <br />
+            </p>
+            <p>
               <a
                 href="https://www.linkedin.com/in/ellenchisa/"
                 className="underline text-blue-400 hover:text-blue-500"
@@ -78,7 +79,8 @@ export const Schedule: Day[] = [
                 Ellen Chisa:
               </a>
               &nbsp; Boldstart Ventures
-              <br />
+            </p>
+            <p>
               <a
                 href="https://www.linkedin.com/in/josephjacks/"
                 className="underline text-blue-400 hover:text-blue-500"
@@ -86,7 +88,8 @@ export const Schedule: Day[] = [
                 Joseph Jacks:
               </a>
               &nbsp; OSS Capital
-              <br />
+            </p>
+            <p>
               <a
                 href="https://www.linkedin.com/in/ebrescia/"
                 className="underline text-blue-400 hover:text-blue-500"
