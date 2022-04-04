@@ -31,7 +31,13 @@ const Overview = () => (
       Redwood is an opinionated, full-stack, JavaScript/TypeScript web app framework
       designed to keep you moving fast as your app grows from side project to startup.
       With React, GraphQL, Prisma, Storybook, and Jest all integrated, you can focus
-      on building your app! <a href="https://redwoodjs.com/">Learn More</a>
+      on building your app!
+      <a
+        className="text-blue-400 underline"
+        href="https://redwoodjs.com/"
+      >
+        Learn More
+      </a>
     </p>
 
     <div className="mb-6 text-center">
