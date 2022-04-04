@@ -313,7 +313,7 @@ export const Schedule: Day[] = [
               >
                 Chakra-UI
               </a>
-              : Segun (Sage) Adebayo and Lazar Nikolov
+              : Lazar Nikolov and Esther Adebayo
             </p>
             <p className="mb-2">
               <a
