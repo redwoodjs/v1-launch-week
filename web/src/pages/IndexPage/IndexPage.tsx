@@ -44,12 +44,20 @@ const Overview = () => (
     </h3>
     <div className="grid mt-8 mb-8 place-content-center">
       <div className="p-4 border-l-2 ">
-        The Redwood&nbsp;
+        Redwood&nbsp;
         <a
           className="text-blue-400 underline"
-          href="https://community.redwoodjs.com/t/redwood-1-0-0-rc-final-is-available/2902"
+          href="https://community.redwoodjs.com/t/redwood-1-0-is-now-available/2958"
         >
-          1.0.0-rc.final is now Available
+          1.0.0 is now Available 🚀
+        </a>
+        <br /> <br />
+        Read Tom Preston-Werner&apos;s&nbsp;
+        <a
+          className="text-blue-400 underline"
+          href="https://tom.preston-werner.com/2022/04/04/redwood-v1-and-funding.html"
+        >
+          $1M Funding Announcement
         </a>
       </div>
     </div>
