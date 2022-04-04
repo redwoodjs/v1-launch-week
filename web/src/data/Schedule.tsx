@@ -74,6 +74,8 @@ export const Schedule: Day[] = [
             <p className="mb-2">
               <a
                 href="https://www.linkedin.com/in/ellenchisa/"
+                target="_blank"
+                rel="noreferrer"
                 className="underline text-blue-400 hover:text-blue-500"
               >
                 Ellen Chisa:
@@ -83,6 +85,8 @@ export const Schedule: Day[] = [
             <p className="mb-2">
               <a
                 href="https://www.linkedin.com/in/josephjacks/"
+                target="_blank"
+                rel="noreferrer"
                 className="underline text-blue-400 hover:text-blue-500"
               >
                 Joseph Jacks:
@@ -92,15 +96,64 @@ export const Schedule: Day[] = [
             <p className="mb-2">
               <a
                 href="https://www.linkedin.com/in/ebrescia/"
+                target="_blank"
+                rel="noreferrer"
                 className="underline text-blue-400 hover:text-blue-500"
               >
                 Erica Brescia:
               </a>
               &nbsp; Redpoint
             </p>
-            <p className="mb-2">
+            <p className="mb-2 mt-6">
               <span className="font-bold">Founders Panel</span>:<br />
               How to start your startup
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://twitter.com/orta"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Orta Therox:
+              </a>
+              &nbsp; stealthy stealth-mode
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.linkedin.com/in/aaronvanston/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Aaron Vanston:
+              </a>
+              &nbsp; Buildpass
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.linkedin.com/in/vishakha/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Vishakha Gupta:
+              </a>
+              &nbsp; ApertureData
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.linkedin.com/in/rachel-vrabec-0b61aa36/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Rachel Vrabec:
+              </a>
+              &nbsp; Kanary
+            </p>
+            <p className="mb-2 mt-6">
+              <span className="font-bold">Demos</span>:<br />
             </p>
             <p className="mb-2">
               <a
