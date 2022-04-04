@@ -72,6 +72,33 @@ export const Schedule: Day[] = [
               Helping startups achieve early-stage success
             </p>
             <p className="mb-2">
+              <a
+                href="https://www.linkedin.com/in/ellenchisa/"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Ellen Chisa:
+              </a>
+              &nbsp; Boldstart Ventures
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.linkedin.com/in/josephjacks/"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Joseph Jacks:
+              </a>
+              &nbsp; OSS Capital
+            </p>
+            <p className="mb-2">
+              <a
+                href="https://www.linkedin.com/in/ebrescia/"
+                className="underline text-blue-400 hover:text-blue-500"
+              >
+                Erica Brescia:
+              </a>
+              &nbsp; Redpoint
+            </p>
+            <p className="mb-2">
               <span className="font-bold">Founders Panel</span>:<br />
               How to start your startup
             </p>
