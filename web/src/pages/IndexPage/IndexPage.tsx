@@ -9,9 +9,11 @@ const IndexPage = () => {
       <MetaTags
         title="RedwoodJS v1.0 Launch"
         description="RedwoodJS v1.0 launch week is here!"
+        ogUrl="https://redwoodjs.com"
+        ogContentUrl="https://redwoodjs.com/images/rw-og.png"
       />
       <Header />
-      <div className="p-12 max-w-3xl m-auto">
+      <div className="max-w-3xl p-12 m-auto">
         <Overview />
         <Program />
         <CTA />
@@ -25,8 +27,8 @@ const IndexPage = () => {
 
 const Overview = () => (
   <div>
-    <div className="text-center mb-6">
-      <h2 className="font-bold text-4xl mb-4">
+    <div className="mb-6 text-center">
+      <h2 className="mb-4 text-4xl font-bold">
         RedwoodJS goes 1.0 on April 4!
       </h2>
     </div>
@@ -40,18 +42,18 @@ const Overview = () => (
       It all leads up to a <span className="font-bold">BIG</span> announcement
       on Thursday.
     </h3>
-    <div className="mt-8 mb-8 grid place-content-center">
+    <div className="grid mt-8 mb-8 place-content-center">
       <div className="p-4 border-l-2 ">
         The Redwood&nbsp;
         <a
-          className="underline text-blue-400"
+          className="text-blue-400 underline"
           href="https://community.redwoodjs.com/t/redwood-1-0-0-rc-final-is-available/2902"
         >
           1.0.0-rc.final is now Available
         </a>
       </div>
     </div>
-    <p className=" text-gray-400">
+    <p className="text-gray-400 ">
       Events require free Lu.ma registration. See specific details via
       &quot;RSVP&quot;s below.
       <br />
@@ -66,12 +68,12 @@ const Overview = () => (
 
 const CTA = () => (
   <div className="mt-36">
-    <div className="pt-4 text-center mx-auto max-w-md border-t-2 border-gray-900">
-      <div className="text-xl pb-8">
+    <div className="max-w-md pt-4 mx-auto text-center border-t-2 border-gray-900">
+      <div className="pb-8 text-xl">
         Ready to start your RedwoodJS adventure?
       </div>
       <a href="https://redwoodjs.com/tutorial">
-        <button className="bg-orange-500 hover:bg-orange-400  text-white text-xl font-bold py-4 px-8 rounded">
+        <button className="px-8 py-4 text-xl font-bold text-white bg-orange-500 rounded hover:bg-orange-400">
           Start the Tutorial
         </button>
       </a>
