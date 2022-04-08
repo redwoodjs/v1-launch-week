@@ -59,6 +59,16 @@ export const Schedule: Day[] = [
         title: 'Redwood Startup Showcase',
         description: (
           <>
+            <div className="mt-4 mb-4 ml-4">
+              <div className="p-3 border-l-2 ">
+                <a
+                  className="text-blue-400 underline"
+                  href="https://youtu.be/B0CP0aAePsI"
+                >
+                  Watch the Recorded Event on YouTube
+                </a>
+              </div>
+            </div>
             <p className="mb-4">
               Startups built with Redwood have raised over $19.5M in the past
               six months. 🤯 Come watch both funded startups and indie devs
@@ -328,6 +338,16 @@ export const Schedule: Day[] = [
         title: 'Partner Office Hours - Block 1',
         description: (
           <>
+            <div className="mt-4 mb-4 ml-4">
+              <div className="p-3 border-l-2 ">
+                <a
+                  className="text-blue-400 underline"
+                  href="https://youtu.be/YIZvEFAl454"
+                >
+                  Watch the Recorded Event on YouTube
+                </a>
+              </div>
+            </div>
             <p className="mb-2">
               <a
                 href="https://supabase.com"
@@ -430,6 +450,16 @@ export const Schedule: Day[] = [
         title: 'Partner Office Hours - Block 2',
         description: (
           <>
+            <div className="mt-4 mb-4 ml-4">
+              <div className="p-3 border-l-2 ">
+                <a
+                  className="text-blue-400 underline"
+                  href="https://youtu.be/eELT7wIr4Eg"
+                >
+                  Watch the Recorded Event on YouTube
+                </a>
+              </div>
+            </div>
             <p className="mb-2">
               <a
                 href="https://netlify.com"
@@ -526,6 +556,16 @@ export const Schedule: Day[] = [
         title: 'The BIG Announcement + Startup Office Hours',
         description: (
           <>
+            <div className="mt-4 mb-4 ml-4">
+              <div className="p-3 border-l-2 ">
+                <a
+                  className="text-blue-400 underline"
+                  href="https://youtu.be/4SXCFI-qC-k"
+                >
+                  Watch the Recorded Event on YouTube
+                </a>
+              </div>
+            </div>
             <p className="mb-4">
               Redwood is all about helping more startups explore more territory
               more quickly. Join us for Office Hours Q&amp;A and discussion

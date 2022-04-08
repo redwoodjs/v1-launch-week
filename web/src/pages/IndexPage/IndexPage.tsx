@@ -52,7 +52,7 @@ const Overview = () => (
       It all leads up to a <span className="font-bold">BIG</span> announcement
       on Thursday.
     </h3>
-    <div className="grid mt-8 mb-8 place-content-center">
+    <div className="mt-6 mb-6 ml-8">
       <div className="p-4 border-l-2 ">
         Redwood&nbsp;
         <a
@@ -68,6 +68,22 @@ const Overview = () => (
           href="https://tom.preston-werner.com/2022/04/04/redwood-v1-and-funding.html"
         >
           $1M Funding Announcement
+        </a>
+        <br /> <br />
+        Read the&nbsp;
+        <a
+          className="text-blue-400 underline"
+          href="https://tom.preston-werner.com/2022/04/07/the-redwood-startup-fund.html"
+        >
+          Redwood Startup Fund Announcement
+        </a>
+        <br /> <br />
+        Watch the&nbsp;
+        <a
+          className="text-blue-400 underline"
+          href="https://youtube.com/playlist?list=PL1HNO86XPhd2cbIHNet06aaTS2TqQ2ORT"
+        >
+          Event Recordings on YouTube
         </a>
       </div>
     </div>
