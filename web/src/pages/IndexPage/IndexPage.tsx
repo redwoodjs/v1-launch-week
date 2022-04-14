@@ -39,18 +39,18 @@ const Overview = () => (
 
     <div className="mb-6 text-center">
       <h2 className="mb-4 text-4xl font-bold">
-        RedwoodJS goes 1.0 on April 4!
+        RedwoodJS went 1.0 on April 4!
       </h2>
     </div>
 
     <h3>
-      From Monday April 4th through Thursday April 7th, we will celebrate the
+      From Monday April 4th through Thursday April 7th, we celebrated the
       release of 1.0.0 with a series of announcements and events from around the
       Redwood ecosystem.
       <br />
       <br />
-      It all leads up to a <span className="font-bold">BIG</span> announcement
-      on Thursday.
+      It all led up to a <span className="font-bold">BIG</span> announcement
+      on Thursday (announcement of the Redwood Startup Fund).
     </h3>
     <div className="mt-6 mb-6 ml-8">
       <div className="p-4 border-l-2 ">
@@ -88,9 +88,6 @@ const Overview = () => (
       </div>
     </div>
     <p className="text-gray-400 ">
-      Events require free Lu.ma registration. See specific details via
-      &quot;RSVP&quot;s below.
-      <br />
       Dates and times below shown in your{' '}
       <span>
         local time zone ({Intl.DateTimeFormat().resolvedOptions().timeZone})

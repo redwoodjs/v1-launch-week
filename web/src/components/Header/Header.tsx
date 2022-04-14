@@ -23,7 +23,7 @@ const Header = () => {
             <br />
             <span className="font-bold text-9xl shimmer">1.0</span>
             <br />
-            Launch Week
+            Launch Week Recap
           </h1>
         </div>
       </div>

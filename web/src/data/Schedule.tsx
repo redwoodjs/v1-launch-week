@@ -310,10 +310,6 @@ export const Schedule: Day[] = [
             </p>
           </>
         ),
-        action: {
-          label: 'RSVP',
-          url: 'https://lu.ma/fh8ejd3j',
-        },
       },
     ],
   },
@@ -439,10 +435,6 @@ export const Schedule: Day[] = [
             </p>
           </>
         ),
-        action: {
-          label: 'RSVP',
-          url: 'https://lu.ma/2gxawl5t',
-        },
       },
       {
         time: new Date(Date.UTC(2022, 3, 4, 20, 0)),
@@ -539,10 +531,6 @@ export const Schedule: Day[] = [
             </p>
           </>
         ),
-        action: {
-          label: 'RSVP',
-          url: 'https://lu.ma/dz7zj5ca',
-        },
       },
     ],
   },
@@ -578,10 +566,6 @@ export const Schedule: Day[] = [
             </p>
           </>
         ),
-        action: {
-          label: 'RSVP',
-          url: 'https://lu.ma/qyxzkb02',
-        },
       },
     ],
   },
