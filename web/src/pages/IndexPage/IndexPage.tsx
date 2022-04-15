@@ -36,6 +36,21 @@ const Overview = () => (
         Learn More
       </a>
     </p>
+    <div className="mt-6 mb-6">
+      <div className="p-4 text-center">
+        📬 <span className="font-bold">You&apos;re invited:</span> RedwoodJS 1.0
+        Meetup on April 28th
+        <br />
+        <a
+          className="text-blue-400 underline"
+          href="https://lu.ma/exbn205k"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Details and Free Registration on Lu.ma
+        </a>
+      </div>
+    </div>
 
     <div className="mb-6 text-center">
       <h2 className="mb-4 text-4xl font-bold">
@@ -49,8 +64,8 @@ const Overview = () => (
       Redwood ecosystem.
       <br />
       <br />
-      It all led up to a <span className="font-bold">BIG</span> announcement
-      on Thursday (announcement of the Redwood Startup Fund).
+      It all led up to a <span className="font-bold">BIG</span> announcement on
+      Thursday (announcement of the Redwood Startup Fund).
     </h3>
     <div className="mt-6 mb-6 ml-8">
       <div className="p-4 border-l-2 ">
